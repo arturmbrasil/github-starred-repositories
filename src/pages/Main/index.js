@@ -22,6 +22,7 @@ import {
 export default class Main extends Component {
   static navigationOptions = {
     title: 'users',
+    headerBackTitleVisible: false,
   };
 
   static propTypes = {
